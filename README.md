@@ -13,6 +13,13 @@ This project covers:
 - Building and training an LSTM regression model in PyTorch.
 - Evaluating predictions against a previous-close baseline.
 
+## Project Pipeline
+
+The diagram shows the workflow from data exploration and closing-price export to LSTM training and prediction evaluation.
+
+![Amazon stock forecasting pipeline](pipeline.png)
+
+
 ## Dataset
 
 The dataset contains **6,516 observations**, covering **May 15, 1997, to April 5, 2023**.
@@ -45,6 +52,7 @@ All files are located in the repository root.
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Files and directories excluded from version control |
 | `README.md` | Project documentation |
+| `pipeline.png` | Diagram of the data exploration, training, and evaluation workflow |
 
 ## Methodology
 
